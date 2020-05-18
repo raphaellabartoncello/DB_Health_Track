@@ -1,0 +1,138 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="269C5CF1-A2FA-F098-E3C6-745AC234A1A9" name="T_PEDIDO">
+<createdBy>Raphaella</createdBy>
+<createdTime>2020-05-18 20:57:21 UTC</createdTime>
+<generatorID>76EE5A45-E94E-61A5-3309-CD804AB312FB</generatorID>
+<ownerDesignName>db_ht</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="cd_pedido" id="42F69E00-2642-5643-2EA5-A781B4CEC410">
+<createdBy>Raphaella</createdBy>
+<createdTime>2020-05-18 20:57:21 UTC</createdTime>
+<generatorID>C497294D-EE80-1655-117C-577C55F52EB5</generatorID>
+<ownerDesignName>db_ht</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="T_PREMIUM_cd_premium" id="6FC54AB4-C7AC-3A3B-6C3C-A6CEC2DFBF73">
+<createdBy>Raphaella</createdBy>
+<createdTime>2020-05-18 20:57:21 UTC</createdTime>
+<generatorID>63E0296E-18A3-EE12-8330-6220C50E0EE3</generatorID>
+<ownerDesignName>db_ht</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="49036ECC-BA7F-B2C3-5D06-4845EB2D06F4" referredColumn="861A6E6C-07A5-7314-CF18-F7D07D00B988"/>
+</associations>
+</Column>
+<Column name="T_DESCONTO_cd_cupom" id="BE8987E3-6BAC-4300-153D-A5B24AB5C2D4">
+<createdBy>Raphaella</createdBy>
+<createdTime>2020-05-18 20:57:21 UTC</createdTime>
+<generatorID>726A5E6B-68A6-400E-AAAD-A2DF121954A7</generatorID>
+<ownerDesignName>db_ht</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="F33D5EDD-1B0B-6E1D-A310-EAD4FACC0E89" referredColumn="C754B15E-2376-8C95-106C-9D8C6B3EDD6F"/>
+</associations>
+</Column>
+<Column name="vl_total" id="7D12C5B2-429A-0FFA-0982-D552737686C5">
+<createdBy>Raphaella</createdBy>
+<createdTime>2020-05-18 20:57:21 UTC</createdTime>
+<generatorID>3AAC520B-2B90-C6A2-49CE-F7075CD1FC4D</generatorID>
+<ownerDesignName>db_ht</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<dataTypeScale>2</dataTypeScale>
+<ownDataTypeParameters>,10,2</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="vl_total_pedido" id="A80DB653-803E-2833-33FC-F2907C209D3B">
+<createdBy>Raphaella</createdBy>
+<createdTime>2020-05-18 20:57:21 UTC</createdTime>
+<generatorID>00D3BB9A-B8EB-71A3-7330-D14D460B8A00</generatorID>
+<ownerDesignName>db_ht</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<dataTypeScale>2</dataTypeScale>
+<ownDataTypeParameters>,10,2</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="293D5C4E-FDF5-62D3-91AA-98E1B35E89D5" name="T_PEDIDO_PK">
+<createdBy>Raphaella</createdBy>
+<createdTime>2020-05-18 20:57:21 UTC</createdTime>
+<generatorID>C08F16CB-D841-918F-4D2F-62EE24F55285</generatorID>
+<ownerDesignName>db_ht</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="42F69E00-2642-5643-2EA5-A781B4CEC410"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="54BE3FC5-EFCB-66F5-6A2A-4E6F5D23CD3A" name="T_PEDIDO__IDX">
+<createdBy>Raphaella</createdBy>
+<createdTime>2020-05-18 20:57:21 UTC</createdTime>
+<ownerDesignName>db_ht</ownerDesignName>
+<indexState>Unique Plain Index</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<relationGeneratorID>3DAFA196-07DD-CC8A-BA63-6BC3DB8AD33C</relationGeneratorID>
+<indexColumnUsage>
+<colUsage columnID="BE8987E3-6BAC-4300-153D-A5B24AB5C2D4"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="E5F4E20F-5D8E-5A46-B917-0450D69753B9" name="T_PEDIDO__IDXv1">
+<createdBy>Raphaella</createdBy>
+<createdTime>2020-05-18 20:57:21 UTC</createdTime>
+<ownerDesignName>db_ht</ownerDesignName>
+<indexState>Unique Plain Index</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<relationGeneratorID>E6A8A2F5-D1E2-6C17-6ABB-59A973670279</relationGeneratorID>
+<indexColumnUsage>
+<colUsage columnID="6FC54AB4-C7AC-3A3B-6C3C-A6CEC2DFBF73"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="C0DD0923-34EC-1A92-EC8D-F6C6C5E64C7F" name="T_PEDIDO_T_DESCONTO_FK">
+<createdBy>Raphaella</createdBy>
+<createdTime>2020-05-18 20:57:21 UTC</createdTime>
+<generatorID>3DAFA196-07DD-CC8A-BA63-6BC3DB8AD33C</generatorID>
+<ownerDesignName>db_ht</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="BE8987E3-6BAC-4300-153D-A5B24AB5C2D4"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="4BCD520D-264E-5285-A704-D752B15C8F1A" name="T_PEDIDO_T_PREMIUM_FK">
+<createdBy>Raphaella</createdBy>
+<createdTime>2020-05-18 20:57:21 UTC</createdTime>
+<generatorID>E6A8A2F5-D1E2-6C17-6ABB-59A973670279</generatorID>
+<ownerDesignName>db_ht</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="6FC54AB4-C7AC-3A3B-6C3C-A6CEC2DFBF73"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

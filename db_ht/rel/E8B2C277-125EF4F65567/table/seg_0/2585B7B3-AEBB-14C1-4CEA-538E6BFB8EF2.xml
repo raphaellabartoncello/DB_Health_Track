@@ -1,0 +1,103 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="2585B7B3-AEBB-14C1-4CEA-538E6BFB8EF2" name="T_ENDERECO">
+<createdBy>Raphaella</createdBy>
+<createdTime>2020-05-18 20:57:20 UTC</createdTime>
+<generatorID>1050578C-494F-950E-3CB4-037D76C37216</generatorID>
+<ownerDesignName>db_ht</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="T_CEP_cd_endereco" id="20697FEC-6AD1-0A07-D4FD-E1B9CB1D151E">
+<createdBy>Raphaella</createdBy>
+<createdTime>2020-05-18 20:57:20 UTC</createdTime>
+<generatorID>67E88C38-7190-A3C0-435B-135D2664B4DF</generatorID>
+<ownerDesignName>db_ht</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="7E352C2F-B641-A59A-E28F-9939E3EB2D68" referredColumn="C5604264-93F5-96B5-CF53-006C7AFE31FF"/>
+</associations>
+</Column>
+<Column name="T_CADASTRO_cd_usuario" id="32E44C6A-32A9-94B3-6D14-C66B714957C5">
+<createdBy>Raphaella</createdBy>
+<createdTime>2020-05-18 20:57:20 UTC</createdTime>
+<generatorID>7CF1D4B9-BEA4-97F5-82AB-01B41A4E3384</generatorID>
+<ownerDesignName>db_ht</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="50A3E328-A0FB-7D6C-FB57-5326C94C8693" referredColumn="E67D06BD-9F29-620A-BDB6-C4B29C5A3AA8"/>
+</associations>
+</Column>
+<Column name="ds_numero" id="FBF83FF9-88BD-471E-1C89-341F939E41EE">
+<createdBy>Raphaella</createdBy>
+<createdTime>2020-05-18 20:57:20 UTC</createdTime>
+<generatorID>F8AE8787-DE04-C17C-D4DA-881498A9FBE4</generatorID>
+<ownerDesignName>db_ht</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>10</dataTypeSize>
+<ownDataTypeParameters>10,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ds_complemento" id="9A6643CB-178D-A5FE-7419-D4049742E118">
+<createdBy>Raphaella</createdBy>
+<createdTime>2020-05-18 20:57:20 UTC</createdTime>
+<generatorID>3ADE908D-06C6-EE8E-ECA1-D4EB8195FB49</generatorID>
+<ownerDesignName>db_ht</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30</dataTypeSize>
+<ownDataTypeParameters>30,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="BB7B5E25-11DE-2A61-6050-85ACD0F0837E" name="T_ENDERECO_PK">
+<createdBy>Raphaella</createdBy>
+<createdTime>2020-05-18 20:57:20 UTC</createdTime>
+<generatorID>C7C25C8B-216D-613C-5FD2-1C605CB5090F</generatorID>
+<ownerDesignName>db_ht</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="20697FEC-6AD1-0A07-D4FD-E1B9CB1D151E"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="1BB356B6-82C2-F69F-AF44-6B678F5316FE" name="T_ENDERECO_T_CEP_FK">
+<createdBy>Raphaella</createdBy>
+<createdTime>2020-05-18 20:57:21 UTC</createdTime>
+<generatorID>D489A11F-BCCB-F9A0-46DD-E7C26D47BFBD</generatorID>
+<ownerDesignName>db_ht</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="20697FEC-6AD1-0A07-D4FD-E1B9CB1D151E"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="65F846A7-7638-E86D-4710-39D4E65AA296" name="T_ENDERECO_T_CADASTRO_FK">
+<createdBy>Raphaella</createdBy>
+<createdTime>2020-05-18 20:57:21 UTC</createdTime>
+<generatorID>D2253B06-903D-2AC1-83AD-818061E68558</generatorID>
+<ownerDesignName>db_ht</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="32E44C6A-32A9-94B3-6D14-C66B714957C5"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

@@ -1,0 +1,89 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="EC9F983F-7DA8-E7E7-5EE0-35C7BEB2D8FA" name="T_NIVEL_ATIV">
+<createdBy>Raphaella</createdBy>
+<createdTime>2020-05-18 20:40:43 UTC</createdTime>
+<ownerDesignName>db_ht</ownerDesignName>
+<engineerTo>
+<item key="E8B2C277-1B7C-E740-743E-125EF4F65567" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="cd_nivel_ativ" id="B6A54C2C-887A-FA4C-1274-7DA33B17DF31">
+<createdBy>Raphaella</createdBy>
+<createdTime>2020-05-18 20:40:43 UTC</createdTime>
+<ownerDesignName>db_ht</ownerDesignName>
+<importedID>1F4D1A5C-6A15-A8BF-D24F-54AA3E19ABAA</importedID>
+<engineerTo>
+<item key="E8B2C277-1B7C-E740-743E-125EF4F65567" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="cd_usuario" id="940F7996-766C-F08E-5A58-F84C22D7F347">
+<createdBy>Raphaella</createdBy>
+<createdTime>2020-05-18 20:40:43 UTC</createdTime>
+<generatorID>C79C4FBA-FCF8-7729-B1BA-E0A18F0B753E</generatorID>
+<ownerDesignName>db_ht</ownerDesignName>
+<importedID>B3B8A042-C42D-3061-CF9F-7E41C7988EF8</importedID>
+<engineerTo>
+<item key="E8B2C277-1B7C-E740-743E-125EF4F65567" value="true"/>
+</engineerTo>
+<referedAttribute>3DAFD132-B9C5-73EE-1F68-69E3D336C6FD</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="cd_nivel" id="EE4C1390-CC05-8761-F148-CF1A7B70F624">
+<createdBy>Raphaella</createdBy>
+<createdTime>2020-05-18 20:40:43 UTC</createdTime>
+<generatorID>C30D5598-D60A-2C22-52BA-DF966EFA3E61</generatorID>
+<ownerDesignName>db_ht</ownerDesignName>
+<importedID>B426158E-6CE5-AFBF-BEB7-566B1C0CBD38</importedID>
+<engineerTo>
+<item key="E8B2C277-1B7C-E740-743E-125EF4F65567" value="true"/>
+</engineerTo>
+<referedAttribute>8B2EDF48-A9A8-4C69-0AA0-893F3E0D3760</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="dt_atualizacao" id="F07A030E-7BE1-74D5-6042-B8BE31BD6748">
+<createdBy>Raphaella</createdBy>
+<createdTime>2020-05-18 20:40:43 UTC</createdTime>
+<ownerDesignName>db_ht</ownerDesignName>
+<importedID>5D930DF3-E15D-ED62-1916-A2F723BBD177</importedID>
+<engineerTo>
+<item key="E8B2C277-1B7C-E740-743E-125EF4F65567" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="DDDE5353-ED2C-73A7-C5B5-78ADB58D8BA8" name="T_PESO PK">
+<createdBy>Raphaella</createdBy>
+<createdTime>2020-05-18 20:40:43 UTC</createdTime>
+<ownerDesignName>db_ht</ownerDesignName>
+<engineerTo>
+<item key="E8B2C277-1B7C-E740-743E-125EF4F65567" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>B6A54C2C-887A-FA4C-1274-7DA33B17DF31</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

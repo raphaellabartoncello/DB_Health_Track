@@ -1,0 +1,20 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="ESTAR" directorySegmentName="seg_0" id="30A248A7-BA8A-4A5D-A47A-F99B41356080">
+<createdBy>Raphaella</createdBy>
+<createdTime>2020-05-18 20:40:43 UTC</createdTime>
+<ownerDesignName>db_ht</ownerDesignName>
+<engineerTo>
+<item key="E8B2C277-1B7C-E740-743E-125EF4F65567" value="true"/>
+</engineerTo>
+<sourcePk>732A38B7-28C8-731A-6A25-9F6BC914247C</sourcePk>
+<dominantRole>5B00AA81-D439-5B3A-897D-9CBD02D2E0A5</dominantRole>
+<identifying>true</identifying>
+<optionalSource>false</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>5B00AA81-D439-5B3A-897D-9CBD02D2E0A5</sourceEntity>
+<targetCardinalityString>1</targetCardinalityString>
+<targetEntity>74F3687D-0B63-D583-777A-2BAC98F1E550</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

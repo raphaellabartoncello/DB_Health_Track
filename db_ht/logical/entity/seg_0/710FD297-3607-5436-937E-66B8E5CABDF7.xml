@@ -1,0 +1,60 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="710FD297-3607-5436-937E-66B8E5CABDF7" name="T_TIPO_NIVEL">
+<createdBy>Raphaella</createdBy>
+<createdTime>2020-05-18 20:40:43 UTC</createdTime>
+<ownerDesignName>db_ht</ownerDesignName>
+<engineerTo>
+<item key="E8B2C277-1B7C-E740-743E-125EF4F65567" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="cd_nivel" id="8B2EDF48-A9A8-4C69-0AA0-893F3E0D3760">
+<createdBy>Raphaella</createdBy>
+<createdTime>2020-05-18 20:40:43 UTC</createdTime>
+<ownerDesignName>db_ht</ownerDesignName>
+<importedID>219364CE-01E4-8AEE-D8BE-9DDD7AA1690A</importedID>
+<engineerTo>
+<item key="E8B2C277-1B7C-E740-743E-125EF4F65567" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ds_nivel" id="44D2AED4-F7FF-94FA-9D76-3C2470E40184">
+<createdBy>Raphaella</createdBy>
+<createdTime>2020-05-18 20:40:43 UTC</createdTime>
+<ownerDesignName>db_ht</ownerDesignName>
+<importedID>2DD39CE8-237F-2009-2070-C71E55A73208</importedID>
+<engineerTo>
+<item key="E8B2C277-1B7C-E740-743E-125EF4F65567" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30</dataTypeSize>
+<ownDataTypeParameters>30,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="AC69836D-930A-5DAC-5311-D1D8C0FEF9F6" name="T_PESO PK">
+<createdBy>Raphaella</createdBy>
+<createdTime>2020-05-18 20:40:43 UTC</createdTime>
+<ownerDesignName>db_ht</ownerDesignName>
+<engineerTo>
+<item key="E8B2C277-1B7C-E740-743E-125EF4F65567" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>8B2EDF48-A9A8-4C69-0AA0-893F3E0D3760</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

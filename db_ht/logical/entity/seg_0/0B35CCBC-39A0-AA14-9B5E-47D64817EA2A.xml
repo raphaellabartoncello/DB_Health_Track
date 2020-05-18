@@ -1,0 +1,93 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="0B35CCBC-39A0-AA14-9B5E-47D64817EA2A" name="T_REFEICAO">
+<createdBy>Raphaella</createdBy>
+<createdTime>2020-05-18 20:40:43 UTC</createdTime>
+<ownerDesignName>db_ht</ownerDesignName>
+<engineerTo>
+<item key="E8B2C277-1B7C-E740-743E-125EF4F65567" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="cd_tipo_ref" id="64C3D0E5-B6D3-7BB0-EE7E-DCB78DA525DA">
+<createdBy>Raphaella</createdBy>
+<createdTime>2020-05-18 20:40:43 UTC</createdTime>
+<generatorID>DDBA1F17-00E9-A3FF-5D86-BA9C138432BA</generatorID>
+<ownerDesignName>db_ht</ownerDesignName>
+<importedID>0DD51B87-77C8-CE1D-BC2E-58B49B638B2D</importedID>
+<engineerTo>
+<item key="E8B2C277-1B7C-E740-743E-125EF4F65567" value="true"/>
+</engineerTo>
+<referedAttribute>3C856473-FC0A-64DC-094A-1FFC10F39D36</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="cd_usuario" id="AC0B24DE-27F6-8592-965B-448F6737E0C6">
+<createdBy>Raphaella</createdBy>
+<createdTime>2020-05-18 20:40:43 UTC</createdTime>
+<generatorID>EBDE8720-5D43-4757-BC06-50BC446B0F78</generatorID>
+<ownerDesignName>db_ht</ownerDesignName>
+<importedID>6144D002-024E-E3D0-C10F-0646DE44A734</importedID>
+<engineerTo>
+<item key="E8B2C277-1B7C-E740-743E-125EF4F65567" value="true"/>
+</engineerTo>
+<referedAttribute>3DAFD132-B9C5-73EE-1F68-69E3D336C6FD</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="cd_alimento" id="83F1158D-462C-0679-E268-DE45AA7946A7">
+<createdBy>Raphaella</createdBy>
+<createdTime>2020-05-18 20:40:43 UTC</createdTime>
+<generatorID>4A8E40A1-D008-A920-3E5A-0E87E0DCB88C</generatorID>
+<ownerDesignName>db_ht</ownerDesignName>
+<importedID>03E100AF-6689-C90B-E101-346AE87C8F3D</importedID>
+<engineerTo>
+<item key="E8B2C277-1B7C-E740-743E-125EF4F65567" value="true"/>
+</engineerTo>
+<referedAttribute>7D9DEC2F-6E85-A00A-702C-E1414115264F</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="nm_qtdade" id="E74A92C4-29EB-EA76-2D86-830AD3974AC1">
+<createdBy>Raphaella</createdBy>
+<createdTime>2020-05-18 20:40:43 UTC</createdTime>
+<ownerDesignName>db_ht</ownerDesignName>
+<importedID>1956DF9C-843D-22A0-F501-58F51D8373BC</importedID>
+<engineerTo>
+<item key="E8B2C277-1B7C-E740-743E-125EF4F65567" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<dataTypeScale>3</dataTypeScale>
+<ownDataTypeParameters>,10,3</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="A2B653E5-AE12-56A8-7CA6-411965BEF490" name="T_REFEICAO PK">
+<createdBy>Raphaella</createdBy>
+<createdTime>2020-05-18 20:40:43 UTC</createdTime>
+<ownerDesignName>db_ht</ownerDesignName>
+<engineerTo>
+<item key="E8B2C277-1B7C-E740-743E-125EF4F65567" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>64C3D0E5-B6D3-7BB0-EE7E-DCB78DA525DA</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

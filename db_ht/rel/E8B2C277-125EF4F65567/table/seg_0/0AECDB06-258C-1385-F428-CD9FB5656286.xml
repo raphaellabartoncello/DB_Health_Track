@@ -1,0 +1,64 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="0AECDB06-258C-1385-F428-CD9FB5656286" name="T_LOGIN">
+<createdBy>Raphaella</createdBy>
+<createdTime>2020-05-18 20:57:21 UTC</createdTime>
+<generatorID>D116C075-0172-1552-A451-18125C1FDE5D</generatorID>
+<ownerDesignName>db_ht</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="T_CADASTRO_cd_usuario" id="1E0A5A33-8D15-1AB1-01FD-2521ACD6CFD0">
+<createdBy>Raphaella</createdBy>
+<createdTime>2020-05-18 20:57:21 UTC</createdTime>
+<generatorID>819B17C9-8B2B-2E21-F828-1A5B059490D0</generatorID>
+<ownerDesignName>db_ht</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="9A17FE6E-C18A-5DFB-23B5-015A2A7B19ED" referredColumn="E67D06BD-9F29-620A-BDB6-C4B29C5A3AA8"/>
+</associations>
+</Column>
+<Column name="ds_senha" id="895016A7-FC3F-4F1E-B70B-A999647DBAC5">
+<createdBy>Raphaella</createdBy>
+<createdTime>2020-05-18 20:57:21 UTC</createdTime>
+<generatorID>B316CA9F-D25B-A129-86EE-720604DC7A83</generatorID>
+<ownerDesignName>db_ht</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20</dataTypeSize>
+<ownDataTypeParameters>20,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="391E19E3-AECC-01A2-6C9F-4A7852444E38" name="T_LOGIN_PK">
+<createdBy>Raphaella</createdBy>
+<createdTime>2020-05-18 20:57:21 UTC</createdTime>
+<generatorID>AE6C3272-8D67-7592-2B1E-50086BCA0E4F</generatorID>
+<ownerDesignName>db_ht</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="1E0A5A33-8D15-1AB1-01FD-2521ACD6CFD0"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="4CCF31C8-4461-74AF-4103-E72CD964DC7A" name="T_LOGIN_T_CADASTRO_FK">
+<createdBy>Raphaella</createdBy>
+<createdTime>2020-05-18 20:57:21 UTC</createdTime>
+<generatorID>458A43E4-41A9-36A4-3919-CFC38401659F</generatorID>
+<ownerDesignName>db_ht</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="1E0A5A33-8D15-1AB1-01FD-2521ACD6CFD0"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

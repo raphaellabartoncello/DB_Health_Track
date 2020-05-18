@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="50A3E328-A0FB-7D6C-FB57-5326C94C8693" containerWithKeyObject="2585B7B3-AEBB-14C1-4CEA-538E6BFB8EF2" localFKIndex="65F846A7-7638-E86D-4710-39D4E65AA296" name="T_ENDERECO_T_CADASTRO_FK">
+<createdBy>Raphaella</createdBy>
+<createdTime>2020-05-18 20:57:21 UTC</createdTime>
+<generatorID>D2253B06-903D-2AC1-83AD-818061E68558</generatorID>
+<ownerDesignName>db_ht</ownerDesignName>
+<referredTableLongName>T_CADASTRO</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>02876D5B-6514-56A9-9AF6-B8410B40EBB9</referredTableID>
+<keyObject>A0086580-AF95-ECA8-E77E-5DF1CD3F0E94</keyObject>
+<referredKeyID>A0086580-AF95-ECA8-E77E-5DF1CD3F0E94</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>cd_usuario</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="73BC8701-2095-3E7C-4D37-B9B05ACDC6B7" containerWithKeyObject="2208CDFD-21E5-6FAE-473D-6EDB4B9F29D8" localFKIndex="B6CF9467-3A9A-F4DB-B252-02626C72D5CF" name="T_COMPRA_T_PEDIDO_FK">
+<createdBy>Raphaella</createdBy>
+<createdTime>2020-05-18 20:57:21 UTC</createdTime>
+<generatorID>BB4262AB-D779-47BB-609E-F08811086E2C</generatorID>
+<ownerDesignName>db_ht</ownerDesignName>
+<referredTableLongName>T_PEDIDO</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>269C5CF1-A2FA-F098-E3C6-745AC234A1A9</referredTableID>
+<keyObject>293D5C4E-FDF5-62D3-91AA-98E1B35E89D5</keyObject>
+<referredKeyID>293D5C4E-FDF5-62D3-91AA-98E1B35E89D5</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>cd_pedido</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

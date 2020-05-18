@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="EF1F6053-2478-CC45-1C5C-A676DD928FFE" containerWithKeyObject="7F5CA651-63BF-4908-82CB-9C161295D897" localFKIndex="9B52FC61-3611-D3D3-8F56-24F2BF2F0303" name="T_EFISICO_T_LISTA_EF_FK">
+<createdBy>Raphaella</createdBy>
+<createdTime>2020-05-18 20:57:21 UTC</createdTime>
+<generatorID>30A248A7-BA8A-4A5D-A47A-F99B41356080</generatorID>
+<ownerDesignName>db_ht</ownerDesignName>
+<referredTableLongName>T_LISTA_EF</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>EF15EB71-DBC0-8942-6E0E-AE84E0FC3E9C</referredTableID>
+<keyObject>619FF6F8-D3CD-71AC-FE5D-2F6DF51E0144</keyObject>
+<referredKeyID>619FF6F8-D3CD-71AC-FE5D-2F6DF51E0144</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>cd_lista_ef</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

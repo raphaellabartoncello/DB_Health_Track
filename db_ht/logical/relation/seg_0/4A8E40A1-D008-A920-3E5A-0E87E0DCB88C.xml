@@ -1,0 +1,20 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="ALIMENTAR" directorySegmentName="seg_0" id="4A8E40A1-D008-A920-3E5A-0E87E0DCB88C">
+<createdBy>Raphaella</createdBy>
+<createdTime>2020-05-18 20:40:43 UTC</createdTime>
+<ownerDesignName>db_ht</ownerDesignName>
+<engineerTo>
+<item key="E8B2C277-1B7C-E740-743E-125EF4F65567" value="true"/>
+</engineerTo>
+<sourcePk>ED1C9D4F-89B3-C68E-2164-46D108AFA299</sourcePk>
+<dominantRole>E03667A9-AB8E-F092-0016-F51B3E929846</dominantRole>
+<identifying>true</identifying>
+<optionalSource>false</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>E03667A9-AB8E-F092-0016-F51B3E929846</sourceEntity>
+<targetCardinalityString>1</targetCardinalityString>
+<targetEntity>0B35CCBC-39A0-AA14-9B5E-47D64817EA2A</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

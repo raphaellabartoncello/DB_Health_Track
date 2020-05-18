@@ -1,0 +1,19 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="PESAR" directorySegmentName="seg_0" id="3058AC9E-4C07-BEA4-0255-2D514780F6CE">
+<createdBy>Raphaella</createdBy>
+<createdTime>2020-05-18 20:40:43 UTC</createdTime>
+<ownerDesignName>db_ht</ownerDesignName>
+<engineerTo>
+<item key="E8B2C277-1B7C-E740-743E-125EF4F65567" value="true"/>
+</engineerTo>
+<sourcePk>F17CCBD8-217B-0C96-2523-AB5115AE97FB</sourcePk>
+<identifying>true</identifying>
+<optionalSource>false</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>9D3B1A08-A369-195A-18DB-768E0A1C16B5</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>842EC116-1D0D-2797-92A9-39ED1182BD05</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

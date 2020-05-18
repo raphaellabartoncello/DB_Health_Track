@@ -1,0 +1,111 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="8752F415-99DB-2849-9E81-02F73AD12038" name="T_IMC">
+<createdBy>Raphaella</createdBy>
+<createdTime>2020-05-18 20:57:20 UTC</createdTime>
+<generatorID>20BD114D-1DDB-DDE2-A74A-4919B0A75DD6</generatorID>
+<ownerDesignName>db_ht</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="cd_imc" id="FAED9B2A-3876-54F6-7E61-7B87C31D2FAA">
+<createdBy>Raphaella</createdBy>
+<createdTime>2020-05-18 20:57:20 UTC</createdTime>
+<generatorID>EE9FEE4C-56F2-7270-AF93-0FD6CB83FFB8</generatorID>
+<ownerDesignName>db_ht</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="T_CADASTRO_cd_usuario" id="03356EA6-DCA9-2778-2B6C-3D4B5EB9C33C">
+<createdBy>Raphaella</createdBy>
+<createdTime>2020-05-18 20:57:20 UTC</createdTime>
+<generatorID>04689B31-5636-FD18-360C-FFE0522F5806</generatorID>
+<ownerDesignName>db_ht</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="8BCB2798-BFE2-68E0-BEEB-7239B40C4002" referredColumn="E67D06BD-9F29-620A-BDB6-C4B29C5A3AA8"/>
+</associations>
+</Column>
+<Column name="T_TIPO_IMC_cd_tipo_imc" id="31620E96-EF89-1E6F-E2CC-4C9CA86487C9">
+<createdBy>Raphaella</createdBy>
+<createdTime>2020-05-18 20:57:20 UTC</createdTime>
+<generatorID>54F8D4BA-5401-2B2F-1CBF-D5568DFA1745</generatorID>
+<ownerDesignName>db_ht</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="BB134703-52C6-F63F-AD37-6490585E6E16" referredColumn="5DEAA979-88F2-7BB6-591C-AFC47C8FDF41"/>
+</associations>
+</Column>
+<Column name="dt_atualizacao" id="B501F7A1-57C9-E44C-169B-46F9F5395FED">
+<createdBy>Raphaella</createdBy>
+<createdTime>2020-05-18 20:57:20 UTC</createdTime>
+<generatorID>9572E2DA-48F3-337C-E800-4A5FA286FEE2</generatorID>
+<ownerDesignName>db_ht</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="DA51B158-EA6D-F2E1-750B-604233FC22CE" name="T_IMC_PK">
+<createdBy>Raphaella</createdBy>
+<createdTime>2020-05-18 20:57:20 UTC</createdTime>
+<generatorID>84046CDB-05EB-5F9E-A258-B582309C4BBC</generatorID>
+<ownerDesignName>db_ht</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="FAED9B2A-3876-54F6-7E61-7B87C31D2FAA"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="116A4D2B-1ED8-0D57-8F6A-E47213032167" name="T_IMC__IDX">
+<createdBy>Raphaella</createdBy>
+<createdTime>2020-05-18 20:57:21 UTC</createdTime>
+<ownerDesignName>db_ht</ownerDesignName>
+<indexState>Unique Plain Index</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<relationGeneratorID>44986648-AD4D-858A-C4A5-0CA584CEFB30</relationGeneratorID>
+<indexColumnUsage>
+<colUsage columnID="31620E96-EF89-1E6F-E2CC-4C9CA86487C9"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="102E1FD9-03C1-0790-A8B3-68A93E47085D" name="T_IMC_T_CADASTRO_FK">
+<createdBy>Raphaella</createdBy>
+<createdTime>2020-05-18 20:57:21 UTC</createdTime>
+<generatorID>9058F897-815B-2E42-40F9-1B48E95A73A1</generatorID>
+<ownerDesignName>db_ht</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="03356EA6-DCA9-2778-2B6C-3D4B5EB9C33C"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="31B789DC-091F-1205-542F-46823C3C8CF6" name="T_IMC_T_TIPO_IMC_FK">
+<createdBy>Raphaella</createdBy>
+<createdTime>2020-05-18 20:57:21 UTC</createdTime>
+<generatorID>44986648-AD4D-858A-C4A5-0CA584CEFB30</generatorID>
+<ownerDesignName>db_ht</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="31620E96-EF89-1E6F-E2CC-4C9CA86487C9"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

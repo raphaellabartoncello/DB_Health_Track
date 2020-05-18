@@ -1,0 +1,111 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="6F0EB60C-F5BA-4F4A-BC02-6294BB7810D4" name="T_H_DORMIDAS">
+<createdBy>Raphaella</createdBy>
+<createdTime>2020-05-18 20:57:20 UTC</createdTime>
+<generatorID>FCDB75E8-6260-0EED-5E24-23916236B8DA</generatorID>
+<ownerDesignName>db_ht</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="cd_hdormidas" id="F1AB48FB-8270-0329-D1C6-0FB2441F07E5">
+<createdBy>Raphaella</createdBy>
+<createdTime>2020-05-18 20:57:20 UTC</createdTime>
+<generatorID>DF814A09-AFEC-6C77-65CB-63FE672C410E</generatorID>
+<ownerDesignName>db_ht</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="T_LISTA_HDOR_cd_lista_hdor" id="37640D77-796B-BA35-0912-285D92DF2840">
+<createdBy>Raphaella</createdBy>
+<createdTime>2020-05-18 20:57:20 UTC</createdTime>
+<generatorID>3741D94E-DE51-D4BD-CC31-24A6A1766EB8</generatorID>
+<ownerDesignName>db_ht</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="44D48D53-E88A-EDD0-3BB4-8E24727AFEE9" referredColumn="113C7944-5A38-0799-32CF-BEDF48C44E95"/>
+</associations>
+</Column>
+<Column name="T_CADASTRO_cd_usuario" id="DADA3E05-5ABD-5E6A-BDDD-C3C01901BB35">
+<createdBy>Raphaella</createdBy>
+<createdTime>2020-05-18 20:57:20 UTC</createdTime>
+<generatorID>53401D83-70B4-A1EE-6CDC-E7630E16E4FF</generatorID>
+<ownerDesignName>db_ht</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="1F4F5E2B-16AD-9441-436E-127A47FA0B46" referredColumn="E67D06BD-9F29-620A-BDB6-C4B29C5A3AA8"/>
+</associations>
+</Column>
+<Column name="dt_atualizacao" id="4724135B-00F1-2CD2-CA18-3ED105590D5A">
+<createdBy>Raphaella</createdBy>
+<createdTime>2020-05-18 20:57:20 UTC</createdTime>
+<generatorID>C21FB27C-F338-430B-B7EE-71C9A2831F03</generatorID>
+<ownerDesignName>db_ht</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="DBF87F61-E8D5-6F17-1DA1-AB4BB3CD8BB8" name="T_H_DORMIDAS_PK">
+<createdBy>Raphaella</createdBy>
+<createdTime>2020-05-18 20:57:20 UTC</createdTime>
+<generatorID>F09BACCA-CBE1-F430-65E5-B76B4377665B</generatorID>
+<ownerDesignName>db_ht</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="F1AB48FB-8270-0329-D1C6-0FB2441F07E5"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="2C6EC688-6CF3-017C-311E-650530B10751" name="T_H_DORMIDAS__IDX">
+<createdBy>Raphaella</createdBy>
+<createdTime>2020-05-18 20:57:21 UTC</createdTime>
+<ownerDesignName>db_ht</ownerDesignName>
+<indexState>Unique Plain Index</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<relationGeneratorID>DC7BA7D2-D3C8-7DFC-8C61-2E4DE0810C21</relationGeneratorID>
+<indexColumnUsage>
+<colUsage columnID="37640D77-796B-BA35-0912-285D92DF2840"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="8E108779-CDD7-3B94-1A7B-ABC4B7A9D891" name="T_H_DORMIDAS_T_LISTA_HDOR_FK">
+<createdBy>Raphaella</createdBy>
+<createdTime>2020-05-18 20:57:21 UTC</createdTime>
+<generatorID>DC7BA7D2-D3C8-7DFC-8C61-2E4DE0810C21</generatorID>
+<ownerDesignName>db_ht</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="37640D77-796B-BA35-0912-285D92DF2840"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="618483F2-01AD-8EB0-477B-FC455E74E6CC" name="T_H_DORMIDAS_T_CADASTRO_FK">
+<createdBy>Raphaella</createdBy>
+<createdTime>2020-05-18 20:57:21 UTC</createdTime>
+<generatorID>47D6B953-2A98-8243-E00C-021257BEB364</generatorID>
+<ownerDesignName>db_ht</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="DADA3E05-5ABD-5E6A-BDDD-C3C01901BB35"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

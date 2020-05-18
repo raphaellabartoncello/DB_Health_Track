@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="44D48D53-E88A-EDD0-3BB4-8E24727AFEE9" containerWithKeyObject="6F0EB60C-F5BA-4F4A-BC02-6294BB7810D4" localFKIndex="8E108779-CDD7-3B94-1A7B-ABC4B7A9D891" name="T_H_DORMIDAS_T_LISTA_HDOR_FK">
+<createdBy>Raphaella</createdBy>
+<createdTime>2020-05-18 20:57:21 UTC</createdTime>
+<generatorID>DC7BA7D2-D3C8-7DFC-8C61-2E4DE0810C21</generatorID>
+<ownerDesignName>db_ht</ownerDesignName>
+<referredTableLongName>T_LISTA_HDOR</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>2BD132F6-351D-40A1-822C-F73C3FF0A49A</referredTableID>
+<keyObject>E4591CA2-1C85-2CD5-DE1A-5907E01D9126</keyObject>
+<referredKeyID>E4591CA2-1C85-2CD5-DE1A-5907E01D9126</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>cd_lista_hdor</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

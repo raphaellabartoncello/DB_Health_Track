@@ -1,0 +1,111 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="6A81F2D6-57A3-D60D-15BE-24EC162083BA" name="T_EMOCIONAL">
+<createdBy>Raphaella</createdBy>
+<createdTime>2020-05-18 20:57:20 UTC</createdTime>
+<generatorID>DAF4AA54-EB34-5BC9-5014-33DC0217E5C1</generatorID>
+<ownerDesignName>db_ht</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="cd_emocional" id="42F7516C-2143-CECB-3988-652DA192EB64">
+<createdBy>Raphaella</createdBy>
+<createdTime>2020-05-18 20:57:20 UTC</createdTime>
+<generatorID>9196CB39-5862-C191-F58B-8C0A09C41809</generatorID>
+<ownerDesignName>db_ht</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="T_LISTA_EMO_cd_lista_emo" id="4679D81F-3271-BB9B-7B9C-F58D770B1A26">
+<createdBy>Raphaella</createdBy>
+<createdTime>2020-05-18 20:57:20 UTC</createdTime>
+<generatorID>91F57E23-1047-9B06-B7B7-F6BD5B0D17A3</generatorID>
+<ownerDesignName>db_ht</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="5B9AA7A0-DD2B-969E-AD43-CF1460CAFCEF" referredColumn="6526C972-EE0B-B3B1-69ED-3F395BDC3B9F"/>
+</associations>
+</Column>
+<Column name="T_CADASTRO_cd_usuario" id="668812F7-558E-E28E-3E6B-F31E1E0407F5">
+<createdBy>Raphaella</createdBy>
+<createdTime>2020-05-18 20:57:20 UTC</createdTime>
+<generatorID>F7D23269-5FEF-F932-B607-EA38F68A34D9</generatorID>
+<ownerDesignName>db_ht</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="D5BDD8C8-898D-1DC3-B42E-0E3148B164A7" referredColumn="E67D06BD-9F29-620A-BDB6-C4B29C5A3AA8"/>
+</associations>
+</Column>
+<Column name="dt_atualizacao" id="40E53D59-0C7F-9C68-13D5-53188F8696A7">
+<createdBy>Raphaella</createdBy>
+<createdTime>2020-05-18 20:57:20 UTC</createdTime>
+<generatorID>A6507D4F-B865-469C-E987-0F863B636166</generatorID>
+<ownerDesignName>db_ht</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="B9EA3918-96F3-519D-24E6-03B9339866C7" name="T_EMOCIONAL_PK">
+<createdBy>Raphaella</createdBy>
+<createdTime>2020-05-18 20:57:20 UTC</createdTime>
+<generatorID>66077E20-D1EE-38F1-08A0-F6AE38FB543A</generatorID>
+<ownerDesignName>db_ht</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="42F7516C-2143-CECB-3988-652DA192EB64"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="3BF3BB56-5CDC-233A-E428-CC0556B299DA" name="T_EMOCIONAL__IDX">
+<createdBy>Raphaella</createdBy>
+<createdTime>2020-05-18 20:57:21 UTC</createdTime>
+<ownerDesignName>db_ht</ownerDesignName>
+<indexState>Unique Plain Index</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<relationGeneratorID>5E2C182C-1E65-C67C-226D-60FE50670E06</relationGeneratorID>
+<indexColumnUsage>
+<colUsage columnID="4679D81F-3271-BB9B-7B9C-F58D770B1A26"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="4127AB22-283B-AE5E-5C93-2CB95E651815" name="T_EMOCIONAL_T_LISTA_EMO_FK">
+<createdBy>Raphaella</createdBy>
+<createdTime>2020-05-18 20:57:21 UTC</createdTime>
+<generatorID>5E2C182C-1E65-C67C-226D-60FE50670E06</generatorID>
+<ownerDesignName>db_ht</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="4679D81F-3271-BB9B-7B9C-F58D770B1A26"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="70297D6A-9FC7-81E7-67C1-FC9BC16A6D6A" name="T_EMOCIONAL_T_CADASTRO_FK">
+<createdBy>Raphaella</createdBy>
+<createdTime>2020-05-18 20:57:21 UTC</createdTime>
+<generatorID>C0DC02B9-2465-3B8B-CD44-C69FD752F789</generatorID>
+<ownerDesignName>db_ht</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="668812F7-558E-E28E-3E6B-F31E1E0407F5"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

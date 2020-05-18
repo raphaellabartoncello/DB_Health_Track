@@ -1,0 +1,20 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="DESCONTAR" directorySegmentName="seg_0" id="3DAFA196-07DD-CC8A-BA63-6BC3DB8AD33C">
+<createdBy>Raphaella</createdBy>
+<createdTime>2020-05-18 20:40:43 UTC</createdTime>
+<ownerDesignName>db_ht</ownerDesignName>
+<engineerTo>
+<item key="E8B2C277-1B7C-E740-743E-125EF4F65567" value="true"/>
+</engineerTo>
+<sourcePk>84D03C72-8156-1491-5579-86574372D493</sourcePk>
+<dominantRole>D568415F-C71B-62F6-8904-B87B538D17FD</dominantRole>
+<identifying>false</identifying>
+<optionalSource>false</optionalSource>
+<optionalTarget>true</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>D568415F-C71B-62F6-8904-B87B538D17FD</sourceEntity>
+<targetCardinalityString>1</targetCardinalityString>
+<targetEntity>76EE5A45-E94E-61A5-3309-CD804AB312FB</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

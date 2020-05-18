@@ -21,9 +21,9 @@ Banco de dados da solução Health Track desenvolvida durante o curso de Anális
 <blockquote>
   <p>
 CREATE TABLE t_ativ (
-    cd_ativ                     CHAR(10) NOT NULL,
-    t_cadastro_cd_usuario       CHAR(10) NOT NULL,
-    t_lista_ativ_cd_lista_ativ  CHAR(10) NOT NULL,
+    cd_ativ                     INTEGER NOT NULL,
+    t_cadastro_cd_usuario       INTEGER NOT NULL,
+    t_lista_ativ_cd_lista_ativ  INTEGER NOT NULL,
     nm_duracao                  NUMBER(10, 2) NOT NULL
 );
 
@@ -35,16 +35,17 @@ CREATE UNIQUE INDEX t_ativ__idx ON
 ALTER TABLE t_ativ ADD CONSTRAINT t_ativ_pk PRIMARY KEY ( cd_ativ );
 
 CREATE TABLE t_cadastro (
-    cd_usuario     CHAR(10) NOT NULL,
+    cd_usuario     INTEGER NOT NULL,
     nm_usuario     VARCHAR2(50) NOT NULL,
     ds_email       VARCHAR2(50) NOT NULL,
     dt_nascimento  DATE NOT NULL,
     dt_cadastro    DATE NOT NULL,
-    ds_link_foto   VARCHAR2(50)
+    ds_link_foto   VARCHAR2(50),
+    ds_premium     RAW(2000) NOT NULL
 );
 
 ALTER TABLE t_cadastro ADD CONSTRAINT t_cadastro_pk PRIMARY KEY ( cd_usuario );
   </p>
 </blockquote>
 
-Script completo: 👉 <a href="/script_criacao.ddl">DDL</a>
+Script completo: 👉 <a href="/script_createdb.sql">Create database</a>

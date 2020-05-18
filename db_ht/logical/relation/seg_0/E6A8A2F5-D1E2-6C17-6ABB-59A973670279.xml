@@ -1,0 +1,21 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="PEDIR" directorySegmentName="seg_0" id="E6A8A2F5-D1E2-6C17-6ABB-59A973670279">
+<createdBy>Raphaella</createdBy>
+<createdTime>2020-05-18 20:40:43 UTC</createdTime>
+<ownerDesignName>db_ht</ownerDesignName>
+<engineerTo>
+<item key="E8B2C277-1B7C-E740-743E-125EF4F65567" value="true"/>
+</engineerTo>
+<sourcePk>C08F16CB-D841-918F-4D2F-62EE24F55285</sourcePk>
+<targetPk>D83D65A8-1C42-7C69-C8B8-A6A4530D0BA2</targetPk>
+<dominantRole>A568EA1E-1B8F-4CD8-8FA0-7F64E3907F5D</dominantRole>
+<identifying>true</identifying>
+<optionalSource>false</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>76EE5A45-E94E-61A5-3309-CD804AB312FB</sourceEntity>
+<targetCardinalityString>1</targetCardinalityString>
+<targetEntity>A568EA1E-1B8F-4CD8-8FA0-7F64E3907F5D</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

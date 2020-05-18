@@ -1,0 +1,100 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="2208CDFD-21E5-6FAE-473D-6EDB4B9F29D8" name="T_COMPRA">
+<createdBy>Raphaella</createdBy>
+<createdTime>2020-05-18 20:57:20 UTC</createdTime>
+<generatorID>E487BD3A-159B-4E3D-C723-CCE56EA97CC4</generatorID>
+<ownerDesignName>db_ht</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="T_PEDIDO_cd_pedido" id="3E3B0E6D-D1E0-312F-8D58-D8AE829ECEDF">
+<createdBy>Raphaella</createdBy>
+<createdTime>2020-05-18 20:57:20 UTC</createdTime>
+<generatorID>E1FE4C99-D31F-3F95-A8AE-2779EE4F1572</generatorID>
+<ownerDesignName>db_ht</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="73BC8701-2095-3E7C-4D37-B9B05ACDC6B7" referredColumn="42F69E00-2642-5643-2EA5-A781B4CEC410"/>
+</associations>
+</Column>
+<Column name="T_CADASTRO_cd_usuario" id="F7CF96A1-A0AC-3FD6-AF12-D155903D3E72">
+<createdBy>Raphaella</createdBy>
+<createdTime>2020-05-18 20:57:20 UTC</createdTime>
+<generatorID>62B5DB43-4ABA-81BD-FB0C-92460DB54CCF</generatorID>
+<ownerDesignName>db_ht</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="2C005D72-BA9B-35F8-3FE3-A2D233FF73D5" referredColumn="E67D06BD-9F29-620A-BDB6-C4B29C5A3AA8"/>
+</associations>
+</Column>
+<Column name="dt_inicio" id="78573444-6E76-32AD-1288-A04D84A8ADE5">
+<createdBy>Raphaella</createdBy>
+<createdTime>2020-05-18 20:57:20 UTC</createdTime>
+<generatorID>2102A17D-3454-FC92-9442-42B3EE48AF0A</generatorID>
+<ownerDesignName>db_ht</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT008</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="dt_fim" id="7E829D90-C8E0-1933-2718-9093A2AE201E">
+<createdBy>Raphaella</createdBy>
+<createdTime>2020-05-18 20:57:20 UTC</createdTime>
+<generatorID>81056059-0F32-4804-133D-DF0008505B34</generatorID>
+<ownerDesignName>db_ht</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT008</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="51B815E5-3BED-FE8B-1E15-804C1576B9F2" name="T_COMPRA_PK">
+<createdBy>Raphaella</createdBy>
+<createdTime>2020-05-18 20:57:20 UTC</createdTime>
+<generatorID>4CA45913-063B-9004-76A8-44DFCE4F0F3A</generatorID>
+<ownerDesignName>db_ht</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="3E3B0E6D-D1E0-312F-8D58-D8AE829ECEDF"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="1C811148-4F4F-914B-A072-F837293C024B" name="T_COMPRA_T_CADASTRO_FK">
+<createdBy>Raphaella</createdBy>
+<createdTime>2020-05-18 20:57:21 UTC</createdTime>
+<generatorID>A3F7978A-01F5-86B9-257E-E59CC5A17BA7</generatorID>
+<ownerDesignName>db_ht</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="F7CF96A1-A0AC-3FD6-AF12-D155903D3E72"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="B6CF9467-3A9A-F4DB-B252-02626C72D5CF" name="T_COMPRA_T_PEDIDO_FK">
+<createdBy>Raphaella</createdBy>
+<createdTime>2020-05-18 20:57:21 UTC</createdTime>
+<generatorID>BB4262AB-D779-47BB-609E-F08811086E2C</generatorID>
+<ownerDesignName>db_ht</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="3E3B0E6D-D1E0-312F-8D58-D8AE829ECEDF"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

@@ -1,0 +1,20 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="COMER" directorySegmentName="seg_0" id="DDBA1F17-00E9-A3FF-5D86-BA9C138432BA">
+<createdBy>Raphaella</createdBy>
+<createdTime>2020-05-18 20:40:43 UTC</createdTime>
+<ownerDesignName>db_ht</ownerDesignName>
+<engineerTo>
+<item key="E8B2C277-1B7C-E740-743E-125EF4F65567" value="true"/>
+</engineerTo>
+<sourcePk>CDDEF43A-EF81-5BC7-72D4-8E7D1A633FD5</sourcePk>
+<dominantRole>09971B59-5BB0-074E-AB12-DACEE7A4581A</dominantRole>
+<identifying>true</identifying>
+<optionalSource>false</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>09971B59-5BB0-074E-AB12-DACEE7A4581A</sourceEntity>
+<targetCardinalityString>1</targetCardinalityString>
+<targetEntity>0B35CCBC-39A0-AA14-9B5E-47D64817EA2A</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

@@ -1,0 +1,20 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="COMPRARv2" directorySegmentName="seg_0" id="BB4262AB-D779-47BB-609E-F08811086E2C">
+<createdBy>Raphaella</createdBy>
+<createdTime>2020-05-18 20:40:43 UTC</createdTime>
+<ownerDesignName>db_ht</ownerDesignName>
+<engineerTo>
+<item key="E8B2C277-1B7C-E740-743E-125EF4F65567" value="true"/>
+</engineerTo>
+<sourcePk>C08F16CB-D841-918F-4D2F-62EE24F55285</sourcePk>
+<dominantRole>76EE5A45-E94E-61A5-3309-CD804AB312FB</dominantRole>
+<identifying>true</identifying>
+<optionalSource>false</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>76EE5A45-E94E-61A5-3309-CD804AB312FB</sourceEntity>
+<targetCardinalityString>1</targetCardinalityString>
+<targetEntity>E487BD3A-159B-4E3D-C723-CCE56EA97CC4</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

@@ -1,0 +1,124 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="7DE7E783-FA44-EAB3-4474-C4441864CC1A" name="T_PREMIUM">
+<createdBy>Raphaella</createdBy>
+<createdTime>2020-05-18 20:57:21 UTC</createdTime>
+<generatorID>A568EA1E-1B8F-4CD8-8FA0-7F64E3907F5D</generatorID>
+<ownerDesignName>db_ht</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="cd_premium" id="861A6E6C-07A5-7314-CF18-F7D07D00B988">
+<createdBy>Raphaella</createdBy>
+<createdTime>2020-05-18 20:57:21 UTC</createdTime>
+<generatorID>C7ACCBEB-59E1-3511-0CEF-130920F3C1A3</generatorID>
+<ownerDesignName>db_ht</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="T_PLANO_cd_plano" id="7D942162-5397-DD5C-C655-5F9A30EA71C2">
+<createdBy>Raphaella</createdBy>
+<createdTime>2020-05-18 20:57:21 UTC</createdTime>
+<generatorID>5B1C8DA6-2DBC-D2FC-6B48-98AA888BFE24</generatorID>
+<ownerDesignName>db_ht</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="42955A90-26E3-9C95-589E-F120EE97B9DD" referredColumn="698D795B-4054-A291-AFB8-96461F4B1438"/>
+</associations>
+</Column>
+<Column name="T_PERIODO_cd_periodo" id="AEF6C775-C72D-EBD4-2C38-8237D2FA54F6">
+<createdBy>Raphaella</createdBy>
+<createdTime>2020-05-18 20:57:21 UTC</createdTime>
+<generatorID>14F2942E-6B2C-5557-4D18-BF9FEFA87EE5</generatorID>
+<ownerDesignName>db_ht</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="2E2B0E7A-0F63-4029-4F85-4AF78A1D5305" referredColumn="1F54C172-712C-8FAA-B23B-0A9069EB6155"/>
+</associations>
+</Column>
+<Column name="vl_preco" id="4C76C56C-59AF-863D-264A-D6FFE2ECB9DD">
+<createdBy>Raphaella</createdBy>
+<createdTime>2020-05-18 20:57:21 UTC</createdTime>
+<generatorID>079942F9-A85A-D309-D100-4D3164CA0301</generatorID>
+<ownerDesignName>db_ht</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<dataTypeScale>2</dataTypeScale>
+<ownDataTypeParameters>,10,2</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="25703CE6-C2D8-19BD-85F6-6962D6CB8C4B" name="T_PREMIUM_PK">
+<createdBy>Raphaella</createdBy>
+<createdTime>2020-05-18 20:57:21 UTC</createdTime>
+<generatorID>D83D65A8-1C42-7C69-C8B8-A6A4530D0BA2</generatorID>
+<ownerDesignName>db_ht</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="861A6E6C-07A5-7314-CF18-F7D07D00B988"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="957ACEAB-1B7D-4DA7-0F43-9214460379DE" name="T_PREMIUM__IDX">
+<createdBy>Raphaella</createdBy>
+<createdTime>2020-05-18 20:57:21 UTC</createdTime>
+<ownerDesignName>db_ht</ownerDesignName>
+<indexState>Unique Plain Index</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<relationGeneratorID>D04A962C-F9A4-6401-56E2-4347DED2E77E</relationGeneratorID>
+<indexColumnUsage>
+<colUsage columnID="7D942162-5397-DD5C-C655-5F9A30EA71C2"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="750034CA-AD9F-3BA8-5465-20DA94C0004B" name="T_PREMIUM__IDXv1">
+<createdBy>Raphaella</createdBy>
+<createdTime>2020-05-18 20:57:21 UTC</createdTime>
+<ownerDesignName>db_ht</ownerDesignName>
+<indexState>Unique Plain Index</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<relationGeneratorID>D1934F0C-EF3E-E9FF-AE95-2671E209AE48</relationGeneratorID>
+<indexColumnUsage>
+<colUsage columnID="AEF6C775-C72D-EBD4-2C38-8237D2FA54F6"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="2B6245E1-B5F3-CCA3-7DE7-2CDC39696D3A" name="T_PREMIUM_T_PLANO_FK">
+<createdBy>Raphaella</createdBy>
+<createdTime>2020-05-18 20:57:21 UTC</createdTime>
+<generatorID>D04A962C-F9A4-6401-56E2-4347DED2E77E</generatorID>
+<ownerDesignName>db_ht</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="7D942162-5397-DD5C-C655-5F9A30EA71C2"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="DDD1B85D-FF6C-7D97-1C36-04482B31CF6E" name="T_PREMIUM_T_PERIODO_FK">
+<createdBy>Raphaella</createdBy>
+<createdTime>2020-05-18 20:57:21 UTC</createdTime>
+<generatorID>D1934F0C-EF3E-E9FF-AE95-2671E209AE48</generatorID>
+<ownerDesignName>db_ht</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="AEF6C775-C72D-EBD4-2C38-8237D2FA54F6"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

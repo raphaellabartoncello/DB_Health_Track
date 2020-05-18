@@ -1,0 +1,20 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="PERIODIZAR" directorySegmentName="seg_0" id="D1934F0C-EF3E-E9FF-AE95-2671E209AE48">
+<createdBy>Raphaella</createdBy>
+<createdTime>2020-05-18 20:40:43 UTC</createdTime>
+<ownerDesignName>db_ht</ownerDesignName>
+<engineerTo>
+<item key="E8B2C277-1B7C-E740-743E-125EF4F65567" value="true"/>
+</engineerTo>
+<sourcePk>D342C6E5-9965-8ED2-2644-88445FC0A03C</sourcePk>
+<dominantRole>70CB1B55-83E0-FAFF-8D47-8B72BF11B39D</dominantRole>
+<identifying>true</identifying>
+<optionalSource>false</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>70CB1B55-83E0-FAFF-8D47-8B72BF11B39D</sourceEntity>
+<targetCardinalityString>1</targetCardinalityString>
+<targetEntity>A568EA1E-1B8F-4CD8-8FA0-7F64E3907F5D</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

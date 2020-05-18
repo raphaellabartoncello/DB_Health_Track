@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="5DEE622A-B71D-23C4-8EB2-AE13CB693EBD" containerWithKeyObject="0C3B0C5C-545A-721B-A2D0-EC1BEDDF1E66" localFKIndex="AC02659E-CB7A-0310-D93D-478CAB24BEC8" name="T_REFEICAO_T_TIPO_REFEICAO_FK">
+<createdBy>Raphaella</createdBy>
+<createdTime>2020-05-18 20:57:21 UTC</createdTime>
+<generatorID>DDBA1F17-00E9-A3FF-5D86-BA9C138432BA</generatorID>
+<ownerDesignName>db_ht</ownerDesignName>
+<referredTableLongName>T_TIPO_REFEICAO</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>B3C9D18B-1FF4-441D-0C5C-3A875FC4BFB4</referredTableID>
+<keyObject>FE812006-F61B-CF06-6158-279156976FD4</keyObject>
+<referredKeyID>FE812006-F61B-CF06-6158-279156976FD4</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>cd_tipo_ref</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

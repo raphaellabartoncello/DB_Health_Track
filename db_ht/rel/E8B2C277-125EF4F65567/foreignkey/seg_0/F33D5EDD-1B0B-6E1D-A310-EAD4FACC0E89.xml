@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="F33D5EDD-1B0B-6E1D-A310-EAD4FACC0E89" containerWithKeyObject="269C5CF1-A2FA-F098-E3C6-745AC234A1A9" localFKIndex="C0DD0923-34EC-1A92-EC8D-F6C6C5E64C7F" name="T_PEDIDO_T_DESCONTO_FK">
+<createdBy>Raphaella</createdBy>
+<createdTime>2020-05-18 20:57:21 UTC</createdTime>
+<generatorID>3DAFA196-07DD-CC8A-BA63-6BC3DB8AD33C</generatorID>
+<ownerDesignName>db_ht</ownerDesignName>
+<referredTableLongName>T_DESCONTO</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>54B101AB-926B-D074-57F5-5D4DAFAEFADF</referredTableID>
+<keyObject>8AB4C903-1274-2970-B2DB-13D4F17AC39E</keyObject>
+<referredKeyID>8AB4C903-1274-2970-B2DB-13D4F17AC39E</referredKeyID>
+<mandatory>false</mandatory>
+<refColNames>cd_cupom</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>
