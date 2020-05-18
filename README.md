@@ -1,6 +1,6 @@
-<img src="/image/healthtrack_logo.png" height="150" width="150">
+<img src="/src/image/healthtrack_logo.png" height="150" width="150">
 
-<h1><img src="/image/database.png" height="20" width="20"> Database - Health Track </h1>
+<h1><img src="/src/image/database.png" height="20" width="20"> Database - Health Track </h1>
 
 Banco de dados da solução Health Track desenvolvida durante o curso de Análise e desenvolvimento de sistemas na *FIAP*.
 
@@ -10,11 +10,11 @@ Banco de dados da solução Health Track desenvolvida durante o curso de Anális
 
 <h2>Modelo lógico</h2>
 
-<img src="/image/Logical.png">
+<img src="/src/image/Logical.png">
 
 <h2>Modelo físico</h2>
 
-<img src="/image/Relational.png">
+<img src="/src/image/Relational.png">
 
 <h2>Script de criação</h2>
 
@@ -48,4 +48,4 @@ ALTER TABLE t_cadastro ADD CONSTRAINT t_cadastro_pk PRIMARY KEY ( cd_usuario );
   </p>
 </blockquote>
 
-Script completo: 👉 <a href="/script_createdb.sql">Create database</a>
+Script completo: 👉 <a href="/src/script_createdb.sql">Create database</a>
