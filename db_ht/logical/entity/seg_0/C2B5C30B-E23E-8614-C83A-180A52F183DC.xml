@@ -1,0 +1,59 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="C2B5C30B-E23E-8614-C83A-180A52F183DC" name="T_LISTA_EMO">
+<createdBy>Raphaella</createdBy>
+<createdTime>2020-05-18 02:03:33 UTC</createdTime>
+<ownerDesignName>db_ht</ownerDesignName>
+<engineerTo>
+<item key="50F2420B-049C-CDC8-396F-55F9EC07F3E2" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="cd_lista_emo" id="15F19334-C3CC-5293-A39E-E524A62B2D3B">
+<createdBy>Raphaella</createdBy>
+<createdTime>2020-05-18 02:03:33 UTC</createdTime>
+<ownerDesignName>db_ht</ownerDesignName>
+<engineerTo>
+<item key="50F2420B-049C-CDC8-396F-55F9EC07F3E2" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>10</dataTypeSize>
+<ownDataTypeParameters>10,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ds_lista_emo" id="30BF9B7E-BDD6-ED3B-7881-1D5B2F3FDEAD">
+<createdBy>Raphaella</createdBy>
+<createdTime>2020-05-18 02:03:33 UTC</createdTime>
+<ownerDesignName>db_ht</ownerDesignName>
+<engineerTo>
+<item key="50F2420B-049C-CDC8-396F-55F9EC07F3E2" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30</dataTypeSize>
+<ownDataTypeParameters>30,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="55843027-73A3-D1D1-9610-5AA7972010BC" name="T_LISTA_ATIVIDADES PK">
+<createdBy>Raphaella</createdBy>
+<createdTime>2020-05-18 02:03:33 UTC</createdTime>
+<ownerDesignName>db_ht</ownerDesignName>
+<engineerTo>
+<item key="50F2420B-049C-CDC8-396F-55F9EC07F3E2" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>15F19334-C3CC-5293-A39E-E524A62B2D3B</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

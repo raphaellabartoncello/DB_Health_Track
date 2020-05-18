@@ -1,0 +1,8 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<OSDM_Design class="oracle.dbtools.crest.model.design.Design" name="db_ht" id="3E84C810-FBB7-B156-4757-E2EEA50E3187" version="3.5">
+<createdBy>Raphaella</createdBy>
+<createdTime>2020-05-17 14:55:45 UTC</createdTime>
+<ownerDesignName>db_healthtrack</ownerDesignName>
+<capitalNames>false</capitalNames>
+<designId>3E84C810-FBB7-B156-4757-E2EEA50E3187</designId>
+</OSDM_Design>

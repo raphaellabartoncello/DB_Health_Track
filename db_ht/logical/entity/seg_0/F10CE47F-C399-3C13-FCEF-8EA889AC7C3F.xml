@@ -1,0 +1,93 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="F10CE47F-C399-3C13-FCEF-8EA889AC7C3F" name="T_REFEICAO">
+<createdBy>Raphaella</createdBy>
+<createdTime>2020-05-18 01:45:32 UTC</createdTime>
+<ownerDesignName>db_ht</ownerDesignName>
+<engineerTo>
+<item key="50F2420B-049C-CDC8-396F-55F9EC07F3E2" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="cd_tipo_ref" id="0DD51B87-77C8-CE1D-BC2E-58B49B638B2D">
+<createdBy>Raphaella</createdBy>
+<createdTime>2020-05-18 01:57:57 UTC</createdTime>
+<generatorID>42C2BC8C-C5B3-7C03-DD23-796CF9EC69F1</generatorID>
+<ownerDesignName>db_ht</ownerDesignName>
+<engineerTo>
+<item key="50F2420B-049C-CDC8-396F-55F9EC07F3E2" value="true"/>
+</engineerTo>
+<referedAttribute>FD25AE63-7DBF-06CA-FAE6-7E965857C7FB</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="cd_alimento" id="03E100AF-6689-C90B-E101-346AE87C8F3D">
+<createdBy>Raphaella</createdBy>
+<createdTime>2020-05-18 01:59:19 UTC</createdTime>
+<generatorID>B42493A8-1F98-AE8B-469E-A01438F0C38E</generatorID>
+<ownerDesignName>db_ht</ownerDesignName>
+<engineerTo>
+<item key="50F2420B-049C-CDC8-396F-55F9EC07F3E2" value="true"/>
+</engineerTo>
+<referedAttribute>0B9CC578-1462-716F-719E-7306318C33ED</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="cd_usuario" id="6144D002-024E-E3D0-C10F-0646DE44A734">
+<createdBy>Raphaella</createdBy>
+<createdTime>2020-05-18 02:01:24 UTC</createdTime>
+<generatorID>E778843E-D775-D24C-5A23-BB2B175AC308</generatorID>
+<ownerDesignName>db_ht</ownerDesignName>
+<engineerTo>
+<item key="50F2420B-049C-CDC8-396F-55F9EC07F3E2" value="true"/>
+</engineerTo>
+<referedAttribute>49AA3120-2F20-EC3B-D6B8-EC8562894AE6</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>10</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="nm_qtdade" id="1956DF9C-843D-22A0-F501-58F51D8373BC">
+<createdBy>Raphaella</createdBy>
+<createdTime>2020-05-18 01:45:32 UTC</createdTime>
+<ownerDesignName>db_ht</ownerDesignName>
+<engineerTo>
+<item key="50F2420B-049C-CDC8-396F-55F9EC07F3E2" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<dataTypeScale>3</dataTypeScale>
+<ownDataTypeParameters>,10,3</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="8F9F7CA7-59B3-F2A3-9FB1-6F14DC36E0C1" name="T_REFEICAO PK">
+<createdBy>Raphaella</createdBy>
+<createdTime>2020-05-18 01:45:32 UTC</createdTime>
+<ownerDesignName>db_ht</ownerDesignName>
+<engineerTo>
+<item key="50F2420B-049C-CDC8-396F-55F9EC07F3E2" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>0DD51B87-77C8-CE1D-BC2E-58B49B638B2D</attributeRef>
+<attributeRef>03E100AF-6689-C90B-E101-346AE87C8F3D</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

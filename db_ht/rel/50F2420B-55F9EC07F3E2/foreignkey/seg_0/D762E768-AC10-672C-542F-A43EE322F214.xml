@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="D762E768-AC10-672C-542F-A43EE322F214" containerWithKeyObject="10CC409D-5E26-306B-C807-6AB5BAD9E5C3" localFKIndex="39143C5B-E43E-8A95-51C0-FE1CD3DF8852" name="T_NIVEL_ATIV_T_TIPO_NIVEL_FK">
+<createdBy>Raphaella</createdBy>
+<createdTime>2020-05-18 02:49:46 UTC</createdTime>
+<generatorID>8EAA8F52-B21B-FD5F-B6EB-18AE5708F7A0</generatorID>
+<ownerDesignName>db_ht</ownerDesignName>
+<referredTableLongName>T_TIPO_NIVEL</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>4FF9B6A7-AF89-BC80-928E-CA1E3250CB85</referredTableID>
+<keyObject>B3B97267-0B84-175E-211F-E3FAD894CCB1</keyObject>
+<referredKeyID>B3B97267-0B84-175E-211F-E3FAD894CCB1</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>cd_nivel</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

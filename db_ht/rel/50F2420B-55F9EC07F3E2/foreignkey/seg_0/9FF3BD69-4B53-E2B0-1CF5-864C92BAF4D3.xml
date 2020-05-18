@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="9FF3BD69-4B53-E2B0-1CF5-864C92BAF4D3" containerWithKeyObject="70BC43E8-68D6-9072-225F-715652AFD377" localFKIndex="FCF82749-15E3-472B-4933-DC993C0E947D" name="T_PREMIUM_T_PLANO_FK">
+<createdBy>Raphaella</createdBy>
+<createdTime>2020-05-18 02:49:46 UTC</createdTime>
+<generatorID>C3821201-23BD-41D0-6BE6-653A2870249F</generatorID>
+<ownerDesignName>db_ht</ownerDesignName>
+<referredTableLongName>T_PLANO</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>11FE38D9-DB54-164A-F75C-CCC7C7E3D18D</referredTableID>
+<keyObject>72ACEF3D-681D-7AC0-918B-29AA2C4AD6E7</keyObject>
+<referredKeyID>72ACEF3D-681D-7AC0-918B-29AA2C4AD6E7</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>cd_plano</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

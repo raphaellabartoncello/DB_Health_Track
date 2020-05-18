@@ -1,0 +1,19 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="DORMIRv1" directorySegmentName="seg_0" id="751A0241-BFB1-D9F1-E8CE-9628784EB6CE">
+<createdBy>Raphaella</createdBy>
+<createdTime>2020-05-18 02:17:17 UTC</createdTime>
+<ownerDesignName>db_ht</ownerDesignName>
+<engineerTo>
+<item key="50F2420B-049C-CDC8-396F-55F9EC07F3E2" value="true"/>
+</engineerTo>
+<sourcePk>76C7FED2-4695-9C20-234A-4464050534C5</sourcePk>
+<identifying>true</identifying>
+<optionalSource>false</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>70455F0F-A7D7-78E7-67D6-3974C08196B9</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>CEC74A9E-B560-0A87-527C-FE2F63EFDD45</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

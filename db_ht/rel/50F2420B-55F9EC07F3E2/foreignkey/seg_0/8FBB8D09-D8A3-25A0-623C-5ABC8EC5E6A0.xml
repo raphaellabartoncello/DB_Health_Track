@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="8FBB8D09-D8A3-25A0-623C-5ABC8EC5E6A0" containerWithKeyObject="9F23B7A0-A476-4A0E-290F-CF11B7B9F544" localFKIndex="C9AC4ECD-1114-1FEE-E160-895283A304AC" name="T_EMOCIONAL_T_LISTA_EMO_FK">
+<createdBy>Raphaella</createdBy>
+<createdTime>2020-05-18 02:49:46 UTC</createdTime>
+<generatorID>83F28A7B-D7EC-DE2F-FF1E-7D37B9968194</generatorID>
+<ownerDesignName>db_ht</ownerDesignName>
+<referredTableLongName>T_LISTA_EMO</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>13B575F9-83FE-0D26-8413-3D9144F51007</referredTableID>
+<keyObject>0B804296-D512-9EF9-8799-E737B764CF20</keyObject>
+<referredKeyID>0B804296-D512-9EF9-8799-E737B764CF20</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>cd_lista_emo</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

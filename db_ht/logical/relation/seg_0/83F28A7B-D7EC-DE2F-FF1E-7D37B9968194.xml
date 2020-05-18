@@ -1,0 +1,20 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="EMOCIONAR" directorySegmentName="seg_0" id="83F28A7B-D7EC-DE2F-FF1E-7D37B9968194">
+<createdBy>Raphaella</createdBy>
+<createdTime>2020-05-18 02:03:33 UTC</createdTime>
+<ownerDesignName>db_ht</ownerDesignName>
+<engineerTo>
+<item key="50F2420B-049C-CDC8-396F-55F9EC07F3E2" value="true"/>
+</engineerTo>
+<sourcePk>55843027-73A3-D1D1-9610-5AA7972010BC</sourcePk>
+<dominantRole>C2B5C30B-E23E-8614-C83A-180A52F183DC</dominantRole>
+<identifying>true</identifying>
+<optionalSource>false</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>C2B5C30B-E23E-8614-C83A-180A52F183DC</sourceEntity>
+<targetCardinalityString>1</targetCardinalityString>
+<targetEntity>CCFA7C1F-54FF-1BEB-77F8-8223066AA56A</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

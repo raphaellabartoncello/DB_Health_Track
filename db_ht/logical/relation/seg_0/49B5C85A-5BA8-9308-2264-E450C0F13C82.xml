@@ -1,0 +1,19 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="SENTIRv1" directorySegmentName="seg_0" id="49B5C85A-5BA8-9308-2264-E450C0F13C82">
+<createdBy>Raphaella</createdBy>
+<createdTime>2020-05-18 02:16:21 UTC</createdTime>
+<ownerDesignName>db_ht</ownerDesignName>
+<engineerTo>
+<item key="50F2420B-049C-CDC8-396F-55F9EC07F3E2" value="true"/>
+</engineerTo>
+<sourcePk>76C7FED2-4695-9C20-234A-4464050534C5</sourcePk>
+<identifying>true</identifying>
+<optionalSource>false</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>70455F0F-A7D7-78E7-67D6-3974C08196B9</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>CCFA7C1F-54FF-1BEB-77F8-8223066AA56A</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

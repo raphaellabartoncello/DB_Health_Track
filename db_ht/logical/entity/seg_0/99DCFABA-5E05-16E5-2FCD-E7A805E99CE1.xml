@@ -1,0 +1,100 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="99DCFABA-5E05-16E5-2FCD-E7A805E99CE1" name="T_COMPRA">
+<createdBy>Raphaella</createdBy>
+<createdTime>2020-05-17 21:41:45 UTC</createdTime>
+<ownerDesignName>db_ht</ownerDesignName>
+<engineerTo>
+<item key="50F2420B-049C-CDC8-396F-55F9EC07F3E2" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="cd_pedido" id="60C4F0DA-D37B-E654-7C99-C83C7B35EA9A">
+<createdBy>Raphaella</createdBy>
+<createdTime>2020-05-17 22:54:08 UTC</createdTime>
+<generatorID>6B349961-2458-E3BB-F2CD-39C9B47A99B4</generatorID>
+<ownerDesignName>db_ht</ownerDesignName>
+<engineerTo>
+<item key="50F2420B-049C-CDC8-396F-55F9EC07F3E2" value="true"/>
+</engineerTo>
+<referedAttribute>8467F4F1-B05C-CFD4-016F-DA568C8032AB</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>10</dataTypeSize>
+<ownDataTypeParameters>10,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="cd_usuario" id="295DA604-AD37-96C8-FBB5-9F22D6A1C882">
+<createdBy>Raphaella</createdBy>
+<createdTime>2020-05-17 21:45:33 UTC</createdTime>
+<generatorID>2871BD87-B710-10FD-1D55-7B57008FD16C</generatorID>
+<ownerDesignName>db_ht</ownerDesignName>
+<engineerTo>
+<item key="50F2420B-049C-CDC8-396F-55F9EC07F3E2" value="true"/>
+</engineerTo>
+<referedAttribute>49AA3120-2F20-EC3B-D6B8-EC8562894AE6</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>10</dataTypeSize>
+<ownDataTypeParameters>10,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="cd_premium" id="CB83E91B-E2E7-42F9-C7E4-9AA1ACAFF6AD">
+<createdBy>Raphaella</createdBy>
+<createdTime>2020-05-17 21:41:45 UTC</createdTime>
+<ownerDesignName>db_ht</ownerDesignName>
+<engineerTo>
+<item key="50F2420B-049C-CDC8-396F-55F9EC07F3E2" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>10</dataTypeSize>
+<ownDataTypeParameters>10,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="dt_inicio" id="31FB1D82-4187-8DF9-8DA3-BBA0EDAEDBC8">
+<createdBy>Raphaella</createdBy>
+<createdTime>2020-05-17 21:41:45 UTC</createdTime>
+<ownerDesignName>db_ht</ownerDesignName>
+<engineerTo>
+<item key="50F2420B-049C-CDC8-396F-55F9EC07F3E2" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT008</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="dt_fim" id="441FC713-6E5A-25D0-C2AB-899B67735804">
+<createdBy>Raphaella</createdBy>
+<createdTime>2020-05-17 21:41:45 UTC</createdTime>
+<ownerDesignName>db_ht</ownerDesignName>
+<engineerTo>
+<item key="50F2420B-049C-CDC8-396F-55F9EC07F3E2" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT008</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="CD56113B-1637-510F-6A2A-EEA1519D1149" name="T_CADASTRO PK">
+<createdBy>Raphaella</createdBy>
+<createdTime>2020-05-17 21:41:45 UTC</createdTime>
+<ownerDesignName>db_ht</ownerDesignName>
+<engineerTo>
+<item key="50F2420B-049C-CDC8-396F-55F9EC07F3E2" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>60C4F0DA-D37B-E654-7C99-C83C7B35EA9A</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

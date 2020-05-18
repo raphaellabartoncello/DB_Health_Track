@@ -1,0 +1,143 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="A502433F-2453-9C43-D617-655070E9A418" name="T_REFEICAO">
+<createdBy>Raphaella</createdBy>
+<createdTime>2020-05-18 02:49:46 UTC</createdTime>
+<generatorID>F10CE47F-C399-3C13-FCEF-8EA889AC7C3F</generatorID>
+<ownerDesignName>db_ht</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="T_TIPO_REFEICAO_cd_tipo_ref" id="E837C150-C9BA-200E-67EE-20BA7E82A48A">
+<createdBy>Raphaella</createdBy>
+<createdTime>2020-05-18 02:49:46 UTC</createdTime>
+<generatorID>0DD51B87-77C8-CE1D-BC2E-58B49B638B2D</generatorID>
+<ownerDesignName>db_ht</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="DE2A8EB5-A8C9-7215-3959-6FDA34C7D529" referredColumn="0B58DA4F-6EAF-6D5A-84F2-47FE110085F1"/>
+</associations>
+</Column>
+<Column name="T_ALIMENTO_cd_alimento" id="855F5233-94E4-50DA-97BA-35141595572B">
+<createdBy>Raphaella</createdBy>
+<createdTime>2020-05-18 02:49:46 UTC</createdTime>
+<generatorID>03E100AF-6689-C90B-E101-346AE87C8F3D</generatorID>
+<ownerDesignName>db_ht</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="9587FC4C-2876-C7DB-292C-FECD7181ADB9" referredColumn="098B4501-BB5D-297F-EE0A-A99FF48A1B57"/>
+</associations>
+</Column>
+<Column name="T_CADASTRO_cd_usuario" id="28D050F7-D757-AD40-F4A2-729F8FECC521">
+<createdBy>Raphaella</createdBy>
+<createdTime>2020-05-18 02:49:46 UTC</createdTime>
+<generatorID>6144D002-024E-E3D0-C10F-0646DE44A734</generatorID>
+<ownerDesignName>db_ht</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>10</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="60A26940-36A9-4547-3631-5A23374D6A10" referredColumn="A21F0B51-29DE-2A5F-7434-96267D30324F"/>
+</associations>
+</Column>
+<Column name="nm_qtdade" id="479689BB-D45C-50EF-C1FF-4C713FB5A68E">
+<createdBy>Raphaella</createdBy>
+<createdTime>2020-05-18 02:49:46 UTC</createdTime>
+<generatorID>1956DF9C-843D-22A0-F501-58F51D8373BC</generatorID>
+<ownerDesignName>db_ht</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<dataTypeScale>3</dataTypeScale>
+<ownDataTypeParameters>,10,3</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="B1667A01-73F0-1609-1883-EB46F7E8C1B3" name="T_REFEICAO_PK">
+<createdBy>Raphaella</createdBy>
+<createdTime>2020-05-18 02:49:46 UTC</createdTime>
+<generatorID>8F9F7CA7-59B3-F2A3-9FB1-6F14DC36E0C1</generatorID>
+<ownerDesignName>db_ht</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="E837C150-C9BA-200E-67EE-20BA7E82A48A"/>
+<colUsage columnID="855F5233-94E4-50DA-97BA-35141595572B"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="751681DC-67EE-652A-24CC-84D426F6BBFF" name="T_REFEICAO__IDX">
+<createdBy>Raphaella</createdBy>
+<createdTime>2020-05-18 02:49:46 UTC</createdTime>
+<ownerDesignName>db_ht</ownerDesignName>
+<indexState>Unique Plain Index</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<relationGeneratorID>B42493A8-1F98-AE8B-469E-A01438F0C38E</relationGeneratorID>
+<indexColumnUsage>
+<colUsage columnID="855F5233-94E4-50DA-97BA-35141595572B"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="84BD8B87-E261-114F-70C1-E0DFFC244524" name="T_REFEICAO__IDXv1">
+<createdBy>Raphaella</createdBy>
+<createdTime>2020-05-18 02:49:46 UTC</createdTime>
+<ownerDesignName>db_ht</ownerDesignName>
+<indexState>Unique Plain Index</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<relationGeneratorID>42C2BC8C-C5B3-7C03-DD23-796CF9EC69F1</relationGeneratorID>
+<indexColumnUsage>
+<colUsage columnID="E837C150-C9BA-200E-67EE-20BA7E82A48A"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="4BD32DCB-E3BD-80B2-618C-C4831A002123" name="T_REFEICAO_T_ALIMENTO_FK">
+<createdBy>Raphaella</createdBy>
+<createdTime>2020-05-18 02:49:46 UTC</createdTime>
+<generatorID>B42493A8-1F98-AE8B-469E-A01438F0C38E</generatorID>
+<ownerDesignName>db_ht</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="855F5233-94E4-50DA-97BA-35141595572B"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="ED93ECC8-7B53-F929-7834-15B63F0BF95B" name="T_REFEICAO_T_TIPO_REFEICAO_FK">
+<createdBy>Raphaella</createdBy>
+<createdTime>2020-05-18 02:49:46 UTC</createdTime>
+<generatorID>42C2BC8C-C5B3-7C03-DD23-796CF9EC69F1</generatorID>
+<ownerDesignName>db_ht</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="E837C150-C9BA-200E-67EE-20BA7E82A48A"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="5ED18AB0-2E00-77C4-2EFE-4CB06C77E1E9" name="T_REFEICAO_T_CADASTRO_FK">
+<createdBy>Raphaella</createdBy>
+<createdTime>2020-05-18 02:49:46 UTC</createdTime>
+<generatorID>E778843E-D775-D24C-5A23-BB2B175AC308</generatorID>
+<ownerDesignName>db_ht</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="28D050F7-D757-AD40-F4A2-729F8FECC521"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>
