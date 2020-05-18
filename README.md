@@ -1,4 +1,4 @@
-<img src="/image/healthtrack-slogan.png">
+<img src="/image/healthtrack-slogan.png" height="150" width="150">
 
 <h1> <i class="fas fa-database"></i> Database - Health Track </h1>
 
