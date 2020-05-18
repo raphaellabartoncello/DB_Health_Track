@@ -48,4 +48,4 @@ ALTER TABLE t_cadastro ADD CONSTRAINT t_cadastro_pk PRIMARY KEY ( cd_usuario );
   </p>
 </blockquote>
 
-Script completo: 👉 <a href="/src/script_createdb.sql">Create database</a>
+Script completo: 👉 <a href="/script_createdb.sql">Create database</a>
