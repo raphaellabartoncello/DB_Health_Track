@@ -1,9 +1,25 @@
+--TABELA DE ALIMENTOS
+
+-- Cria sequencia
+CREATE SEQUENCE alimento_seq
+ START WITH     1
+ INCREMENT BY   1
+ NOCACHE
+ NOCYCLE;
+
+ -- Cria tabela
 CREATE TABLE t_alimento (
     cd_alimento  INTEGER NOT NULL,
     ds_alimento  VARCHAR2(30) NOT NULL,
-    nm_calorias  NUMBER(10, 3) NOT NULL,
-    cd_tipo_ref  NUMBER(10) NOT NULL
-);
+    nm_calorias  NUMBER(10, 3) NOT NULL);
+
+
+
+
+
+
+
+
 
 ALTER TABLE t_alimento ADD CONSTRAINT t_alimento_pk PRIMARY KEY ( cd_alimento );
 
